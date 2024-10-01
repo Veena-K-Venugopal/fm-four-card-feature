@@ -78,3 +78,10 @@ p {
 .calculator {
     box-shadow: 0 -4px hsl(212, 86%, 64%);
 }
+
+@media screen and (min-width: 580px) {
+    .head-card {
+        max-width: 500px;
+        margin: auto;
+    }
+}
