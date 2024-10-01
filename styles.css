@@ -36,6 +36,8 @@ p {
 }
 
 .head-card p {
+    padding-top: 16px;
+    padding-bottom: 4em;
     font-size: .9375rem;
 }
 
@@ -62,7 +64,6 @@ p {
 }
 
 .supervisor {
-    /* box-shadow: 0 -4px hsl(180, 62%, 55%); */
     box-shadow: 0 -6px 2px -2px hsl(180, 62%, 55%), 0 5px 5px -5px hsl(0, 2%, 56%), 0 5px 3px -3px hsl(0, 2%, 56%), 0 5px 3px -3px hsl(0, 2%, 56%);
 }
 
