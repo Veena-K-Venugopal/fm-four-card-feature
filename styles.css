@@ -1,14 +1,13 @@
 * {
     margin: 0;
     padding: 0;
-    /* border: 1px solid; */
     font-family: "Poppins", sans-serif;
     color: hsl(232, 12%, 34%);
 }
 
 html {
     background-color: hsl(0, 0%, 98%);
-    ;
+    padding: 4.75rem 0 4.75rem 0;
 }
 
 body {
@@ -16,11 +15,12 @@ body {
     font-size: 15px;
 }
 
+/* Styles for head-card */
+
 .head-card {
     letter-spacing: 0.1px;
     text-align: center;
-    margin-top: 5.67rem;
-    margin-bottom: 5.067rem;
+    margin-bottom: 5rem;
 }
 
 .head-title {
@@ -40,12 +40,36 @@ h2 {
 
 /* Styles for main-card */
 
+.main-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.main-card section {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 8px 8px -4px hsl(229, 6%, 66%);
+    padding: 1.75rem;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.main-card section p {
+    font-size: .8125rem;
+    letter-spacing: 0.09px;
+    line-height: 1.4375rem;
+    margin-bottom: 2rem;
+}
+
 svg {
-    width: 3.8rem;
-    height: 3.8rem;
+    float: right;
 }
 
 .supervisor {
     border-top: 3.55px solid hsl(180, 62%, 55%);
-    border-radius: 3.55px;
 }
