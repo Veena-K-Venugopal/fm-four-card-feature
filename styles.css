@@ -7,12 +7,15 @@
 
 html {
     background-color: hsl(0, 0%, 98%);
-    padding: 4.75rem 0 4.75rem 0;
+    /* padding: 4.75rem 0 4.75rem 0; */
 }
 
 body {
+    margin: auto;
+    max-height: 100vh;
     padding: 2rem;
     font-size: 15px;
+    border: 1px solid;
 }
 
 /* Styles for head-card */
@@ -67,7 +70,9 @@ h3 {
 }
 
 svg {
-    float: right;
+    /* float: right; */
+    position: relative;
+    top: 20%;
 }
 
 .supervisor {
@@ -96,13 +101,20 @@ svg {
     }
 
     .main-card {
-        /* max-width: 700px; */
+        max-width: 90vw;
         margin: auto;
+        height: 60vh;
         margin-top: 4rem;
     }
 }
 
 @media screen and (min-width: 786px) {
+
+    body {
+        width: 77%;
+        height: 65%;
+    }
+
     .main-card {
         display: grid;
         grid-template-rows: 0.26fr 0.21fr 0.06fr 0.21fr 0.26fr;
