@@ -97,3 +97,21 @@ body {
 .calculator {
     border-top: 4px solid #549ef2;
 }
+
+@media screen and (min-width: 600px) {
+    body {
+        gap: 4rem;
+    }
+
+    /* .main-card {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 1rem;
+        align-items: center;
+    } */
+
+    .main-card {
+        flex-direction: row;
+    }
+}
