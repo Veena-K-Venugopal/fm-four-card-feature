@@ -33,9 +33,11 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://veena-k-venugopal.github.io/fm-four-card-feature/)
 
 ## My process
+
+I worked on the mobile design first. I used flexbox for the layouts. For desktop design, I used grid. 
 
 ### Built with
 
@@ -46,34 +48,23 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+I was able to add an advanced box shadow using this:
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+.main-card section {
+    box-shadow: 0 8px 8px -4px #a3a5ae;
 }
 ```
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I am still not satisfied with the grid layout on desktop design. I would like to keep working on it to create better transitions.   
 
 ### Useful resources
 
 - [Surprising Truth About PIxels & Accessibility by Josh Comeau](https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility/) - This helped me understand the various measurement representations offered - px, rem, em, etc.
 - [Designing Shadows by Josh Comeay](https://www.joshwcomeau.com/css/designing-shadows/) - I found this article helpful in understanding concepts of box-shadow in depth.
+- [Using margin-left instead of float](https://forum.freecodecamp.org/t/not-floating-right/409659) - As the title suggests, this helped me work the placement of the icons on the card. 
+- [CSS Grid Alignment](https://www.quackit.com/css/grid/tutorial/css_grid_alignment.cfm) - This helped me understand more about various ways to use and implement grids.
 
 ## Author
 
